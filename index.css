@@ -230,7 +230,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../whoofuds.github.io/bg1.jpg) no-repeat;/*bg*/
+    background: url(whoofuds.github.io/bg1.jpg) no-repeat;/*bg*/
     background-size: cover;
     background-position: center;
 
