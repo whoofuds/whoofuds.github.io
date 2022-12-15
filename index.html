@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href ="index.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+</head>
+<body background="bg1.jpg">
+   
+    <!--header-->
+    <header class="header">
+             <a href="index.html" class ="logo">
+                <img src ="logoo.png" alt="logo">
+            </a>
+    <!--NAVIGATOR-->
+   
+            <nav class="navigator">
+                <a href="index.html" class = "active1">home</a>
+                <a href="menu.html">menu</a>            
+                <a href="about.html">about</a>
+                <a href="review.html">review</a>
+                <a href="contact.html">contact</a>
+                
+            </nav>
+        <div class="icon">
+
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+
+        </div>
+
+            <div class="search-form">
+                <input type="search" id ="search" placeholder ="Search here.....">
+                <label for="search" class="fas fa-search"></label>
+
+            </div>
+
+
+ 
+    </header>
+
+    <!--homePage-->
+            <section class="home" id="home">
+                
+                <div class="content">
+                    <h3>Whoofuds</h3>
+                    <p>
+                        I will always woof you.<br>
+                        My best friend has a fur and a tail.<br>
+                        but they make our lives whole.
+                        <br>
+                        
+                        </p>
+                        <a href="about.html" class="btn">read more</a>
+                </div>
+
+
+
+
+            </section>
+
+           
+
+<style>
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+   background: url(../project1/bg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}</style>
+
+
+
+
+
+
+
+
+  <!-- custom js file link  -->
+<script src="script.js">
+        let navigator = document.querySelector('.navigator');
+
+        document.querySelector('#menu-btn').onclick = () =>{
+            navigator.classList.toggle('active');
+        }
+        let searchform = document.querySelector('.search-form');
+
+        document.querySelector('#search-btn').onclick = () =>{
+            navigator.classList.toggle('active');
+        }
+</script>
+    
+</body>
+</html>

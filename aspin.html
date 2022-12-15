@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog food for Aspin</title>
+    <link rel="stylesheet" href ="index.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+</head>
+<body>
+   
+    <!--header-->
+    <header class="header">
+             <a href="index.html" class ="logo">
+                <img src ="logoo.png" alt="logo">
+            </a>
+    <!--NAVIGATOR-->
+   
+            <nav class="navigator">
+                <a href="index.html" >home</a>
+                <a href="menu.html"class = "active1">menu</a>          
+                <a href="about.html">about</a>
+                <a href="review.html">review</a>
+                <a href="contact.html">contact</a>
+                <a href="#blogs">blogs</a>
+            </nav>
+        <div class="icon">
+
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+
+        </div>
+
+            <div class="search-form">
+                <input type="search" id ="search" placeholder ="Search here.....">
+                <label for="search" class="fas fa-search"></label>
+
+            </div>
+
+
+ 
+    </header>
+
+    <!--about-->
+    <div class="content">
+    
+    
+        <h3>Makes your bestfriend happy!</h3>
+        <p>I will always woof you.<br>
+            My best friend has a fur and a tail.<br>
+            but they make our lives whole.</p>
+            <br>
+            <p>I will always woof you.<br>
+                My best friend has a fur and a tail.<br>
+                
+                <br>
+
+
+</div>
+           <section class="about" id="about">
+            <h2 class="heading">Top3 best food <br>
+                for your<span> Aspin </span></h2>
+        
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="aspin1.jpg" alt="about">
+                </div>
+                <div class="content">
+                    
+                    <h3>ORIJEN Dog Original <br>
+                        Recipe Dry Dog Food</h3>
+                        <br>
+                    <p>➤ Delicious, whole prey diet with turkey and fish proteins.<br>
+                       <br>➤ Recipe contains fresh and raw animal ingredients<br>
+                        <br>➤ Grain-free formulation</p>
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.amazon.com/dp/B01I3JW7PK?tag=dogfoodcare-20&linkCode=ogi&th=1" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <hr></hr>
+            <!--dog food 2-->
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="aspin2.jpg" alt="about">
+                </div>
+                <div class="content">
+                  
+                    <h3>Eukanuba Senior Medium <br>
+                        Breed Dry Dog Food, 30 lb</h3>
+                        <br>
+                    <p>➤ Chondroitin sulfate to support joint mobility<br>
+                       <br>➤ Optimal amount of fats and carbohydrates for overall nutrition<br>
+                        <br>➤ Guaranteed levels of antioxidants for immune health</p>
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.amazon.com/dp/B011OHT4NQ?tag=dogfoodcare-20&linkCode=ogi&th=1&psc=1" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <!--dog food3 -->
+
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="aspin3.jpg" alt="about">
+                </div>
+                <div class="content">
+                  
+                    <h3>Royal Canin Hypoallergenic <br>
+                        Wet Dog Food</h3>
+                        <br>
+                    <p>➤ Rich in fibers and prebiotics for healthy digestion<br>
+                       <br>➤ Contains amino acids and omega-3 fatty acids for healthy skin and coat<br>
+                        <br>➤ Formulated specifically for dogs with sensitivities</p>
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.amazon.com/Royal-Canin-Canine-Hydrolyzed-Protein/dp/B083QNS196/ref=sr_1_5?crid=2ZL8OBPB5XN3H&keywords=Royal+Canin+Hypoallergenic+Wet+Dog+Food&qid=1656121148&s=pet-supplies&sprefix=royal+canin+hypoallergenic+wet+dog+food%2Cpets%2C266&sr=1-5" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <a href="menu.html"  class="btn">back to menu</a>
+           </section>
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- custom js file link  -->
+<script src="script.js">
+        let navigator = document.querySelector('.navigator');
+
+        document.querySelector('#menu-btn').onclick = () =>{
+            navigator.classList.toggle('active');
+        }
+        let searchform = document.querySelector('.search-form');
+
+        document.querySelector('#search-btn').onclick = () =>{
+            navigator.classList.toggle('active');
+        }
+</script>
+    
+</body>
+</html>

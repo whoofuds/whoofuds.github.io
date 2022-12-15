@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href ="index.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+</head>
+<body>
+   
+    <!--header-->
+    <header class="header">
+             <a href="index.html" class ="logo">
+                <img src ="logoo.png" alt="logo">
+            </a>
+    <!--NAVIGATOR-->
+   
+            <nav class="navigator">
+                <a href="index.html" >home</a>
+                <a href="menu.html">menu</a>          
+                <a href="about.html">about</a>
+                <a href="review.html">review</a>
+                <a href="contact.html"class = "active1">contact</a>
+            </nav>
+        <div class="icon">
+
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+
+        </div>
+
+            <div class="search-form">
+                <input type="search" id ="search" placeholder ="Search here.....">
+                <label for="search" class="fas fa-search"></label>
+
+            </div>
+
+
+ 
+    </header>
+    <div class="content">
+    
+    
+        <h3>Makes your bestfriend happy!</h3>
+        <p>I will always woof you.<br>
+            My best friend has a fur and a tail.<br>
+            but they make our lives whole.</p>
+            <br>
+            <p>I will always woof you.<br>
+                My best friend has a fur and a tail.<br>
+                
+                <br>
+
+
+</div>
+
+    <!--about-->
+           <section class="contact" id="contact">
+            
+        
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="ako.jpg" alt="about">
+                </div>
+                <div class="content">
+                    <h2 class="heading"><span>Contact </span>us</h2>
+                    <h3 class="heading"><span>Name: </span><br>Arjay L. Llanes <br>
+                        </h3></p>
+                    <h3 class="heading"><span>Cellphone no.: </span><br>092222222 <br>
+                        </h3></p>
+                    <h3 class="heading"><span>Email: </span><br>arjaylotallanes@gmail.com <br>
+                        </h3></p>
+                            <br>
+                </div>
+            </div>
+
+           </section>
+
+           <section class="footer">
+
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+            </div>
+        
+        
+            <div class="credit">created by <span>Arjay L. Llanes</span> | all rights reserved | Copyright 2022 </div>
+        
+        </section>
+        
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- custom js file link  -->
+<script src="script.js">
+        let navigator = document.querySelector('.navigator');
+
+        document.querySelector('#menu-btn').onclick = () =>{
+            navigator.classList.toggle('active');
+        }
+        let searchform = document.querySelector('.search-form');
+
+        document.querySelector('#search-btn').onclick = () =>{
+            navigator.classList.toggle('active');
+        }
+</script>
+    
+</body>
+</html>

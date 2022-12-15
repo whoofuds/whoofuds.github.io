@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog food for Chihuahua</title>
+    <link rel="stylesheet" href ="index.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+</head>
+<body>
+   
+    <!--header-->
+    <header class="header">
+             <a href="index.html" class ="logo">
+                <img src ="logoo.png" alt="logo">
+            </a>
+    <!--NAVIGATOR-->
+   
+            <nav class="navigator">
+                <a href="index.html" >home</a>
+                <a href="menu.html"class = "active1">menu</a>          
+                <a href="about.html">about</a>
+                <a href="review.html">review</a>
+                <a href="contact.html">contact</a>
+                <a href="#blogs">blogs</a>
+            </nav>
+        <div class="icon">
+
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+
+        </div>
+
+            <div class="search-form">
+                <input type="search" id ="search" placeholder ="Search here.....">
+                <label for="search" class="fas fa-search"></label>
+
+            </div>
+
+
+ 
+    </header>
+
+    <!--about-->
+    <div class="content">
+    
+    
+        <h3>Makes your bestfriend happy!</h3>
+        <p>I will always woof you.<br>
+            My best friend has a fur and a tail.<br>
+            but they make our lives whole.</p>
+            <br>
+            <p>I will always woof you.<br>
+                My best friend has a fur and a tail.<br>
+                
+                <br>
+
+
+</div>
+           <section class="about" id="about">
+            <h2 class="heading">Top3 best food <br>
+                for your<span> Chihuahua </span></h2>
+        
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="chi1.jpg" alt="about">
+                </div>
+                <div class="content">
+                    
+                    <h3>Instinct Raw Boost Toy <br>
+                        Breed with Real Chicken</h3>
+                        <br>
+                    <p>➤First 5 ingredients: Chicken, chicken meal (source of glucosamine and chondroitin sulfate),<br>
+                         chickpeas, tapioca, chicken fat (preserved with mixed tocopherols and citric acid)<br>
+                       <br>➤ Type: Grain-free<br>
+                        <br>➤Best for: Adult chihuahuas and puppies</p>
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.chewy.com/instinct-raw-boost-toy-breed-grain/dp/146283?utm_source=partnerize&utm_medium=affiliates&utm_campaign=1100l35838&utm_content=0&clickref=1100lwosMNLj&utm_term=1100lwosMNLj" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <hr></hr>
+            <!--dog food 2-->
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="chi2.jpg" alt="about">
+                </div>
+                <div class="content">
+                  
+                    <h3>Royal Canin Adult Chihuahua Wet Dog Food</h3>
+                        <br>
+                    <p>➤ First 5 ingredients: Water sufficient for processing, <br>
+                       <br>chicken by-products, pork by-products, chicken, pork liver<br>
+                       <br>➤ Type: Grain-inclusive (corn)<br>
+                        <br>➤Best for: Adult chihuahuas</p>
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.chewy.com/royal-canin-breed-health-nutrition/dp/127202?utm_source=partnerize&utm_medium=affiliates&utm_campaign=1100l35838&utm_content=0&clickref=1100lwosNd4C&utm_term=1100lwosNd4C" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <!--dog food3 -->
+
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="chi3.jpg" alt="about">
+                </div>
+                <div class="content">
+                  
+                    <h3>Merrick Lil’ Plates  <br>
+                        Small Breed Wet</h3>
+                        <br>
+                    <p>➤ First 5 ingredients: Beef, beef broth, venison broth, beef liver, dried egg whites<br>
+                        <br>➤ Best for: Adult chihuahuas</p>
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.chewy.com/s?query=merrick%20lil%20plates%20wet%20dog%20food&utm_source=partnerize&utm_medium=affiliates&utm_campaign=1100l35838&utm_content=0&clickref=1011lwpeRNw8&utm_term=1011lwpeRNw8" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <a href="menu.html"  class="btn">back to menu</a>
+           </section>
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- custom js file link  -->
+<script src="script.js">
+        let navigator = document.querySelector('.navigator');
+
+        document.querySelector('#menu-btn').onclick = () =>{
+            navigator.classList.toggle('active');
+        }
+        let searchform = document.querySelector('.search-form');
+
+        document.querySelector('#search-btn').onclick = () =>{
+            navigator.classList.toggle('active');
+        }
+</script>
+    
+</body>
+</html>

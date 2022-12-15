@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog food for Golden Retriever</title>
+    <link rel="stylesheet" href ="index.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+</head>
+<body>
+   
+    <!--header-->
+    <header class="header">
+             <a href="index.html" class ="logo">
+                <img src ="logoo.png" alt="logo">
+            </a>
+    <!--NAVIGATOR-->
+   
+            <nav class="navigator">
+                <a href="index.html" >home</a>
+                <a href="menu.html"class = "active1">menu</a>          
+                <a href="about.html">about</a>
+                <a href="review.html">review</a>
+                <a href="contact.html">contact</a>
+                <a href="#blogs">blogs</a>
+            </nav>
+        <div class="icon">
+
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+
+        </div>
+
+            <div class="search-form">
+                <input type="search" id ="search" placeholder ="Search here.....">
+                <label for="search" class="fas fa-search"></label>
+
+            </div>
+
+
+ 
+    </header>
+
+    <!--about-->
+    <div class="content">
+    
+    
+        <h3>Makes your bestfriend happy!</h3>
+        <p>I will always woof you.<br>
+            My best friend has a fur and a tail.<br>
+            but they make our lives whole.</p>
+            <br>
+            <p>I will always woof you.<br>
+                My best friend has a fur and a tail.<br>
+                
+                <br>
+
+
+</div>
+           <section class="about" id="about">
+            <h2 class="heading">Top3 best food <br>
+                for your<span> Golden Retriever </span></h2>
+        
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="gold1.jpg" alt="about">
+                </div>
+                <div class="content">
+                    
+                    <h3>Wellness Complete Health <br>
+                        Large Breed Adult</h3>
+                        <br>
+                    <p>➤First 5 ingredients: Deboned chicken, chicken meal, ground brown rice, barley, peas<br>
+                        <br>➤Type: Grain-inclusive (brown rice, barley, oats, oatmeal)<br>
+                        <br>➤Best for: Adult goldens</p>
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.chewy.com/wellness-large-breed-complete-health/dp/34356?utm_source=partnerize&utm_medium=affiliates&utm_campaign=1100l35838&utm_content=0&clickref=1101lwoCa3tI&utm_term=1101lwoCa3tI" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <hr></hr>
+            <!--dog food 2-->
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="gold2.jpg" alt="about">
+                </div>
+                <div class="content">
+                  
+                    <h3>Taste of the Wild Southwest Canyon</h3>
+                        <br>
+                    <p>➤ First 5 ingredients: Beef, peas, garbanzo beans, lamb meal, canola oil <br>
+                       <br>➤ Type: Grain-free<br>
+                       <br>➤ Best for: Golden retriever adults and puppies<br>
+                        
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.chewy.com/taste-wild-southwest-canyon-grain/dp/40899?utm_source=partnerize&utm_medium=affiliates&utm_campaign=1100l35838&utm_content=0&clickref=1011lwpeUIYf&utm_term=1011lwpeUIYf" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <!--dog food3 -->
+
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="gold3.png" alt="about">
+                </div>
+                <div class="content">
+                  
+                    <h3>Nom Nom Fresh</h3>
+                    <br>
+                    <p>➤ First 5 ingredients: Diced chicken, sweet potatoes, squash, spinach, sunflower oil<br>
+                        <br>➤Type: Grain-free<br>
+                        <br>➤ Golden retriever adults and puppies</p>
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.nomnomnow.com/dog-food-recipes?irclickid=wyi1LryL2xyNRDA2IvT%3AT1ImUkAx5UwWUR50zU0&irgwc=1&utm_campaign=Dog%20Recipes%20Page%20-%2050%25%20Off%20Promo&utm_medium=affiliate&utm_source=Dog%20Food%20Advisor&utm_content=Dog%20Food%20Advisor&promo=50off" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <a href="menu.html"  class="btn">back to menu</a>
+           </section>
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- custom js file link  -->
+<script src="script.js">
+        let navigator = document.querySelector('.navigator');
+
+        document.querySelector('#menu-btn').onclick = () =>{
+            navigator.classList.toggle('active');
+        }
+        let searchform = document.querySelector('.search-form');
+
+        document.querySelector('#search-btn').onclick = () =>{
+            navigator.classList.toggle('active');
+        }
+</script>
+    
+</body>
+</html>

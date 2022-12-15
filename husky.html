@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog food for Husky</title>
+    <link rel="stylesheet" href ="index.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+</head>
+<body>
+   
+    <!--header-->
+    <header class="header">
+             <a href="index.html" class ="logo">
+                <img src ="logoo.png" alt="logo">
+            </a>
+    <!--NAVIGATOR-->
+   
+            <nav class="navigator">
+                <a href="index.html" >home</a>
+                <a href="menu.html"class = "active1">menu</a>          
+                <a href="about.html">about</a>
+                <a href="review.html">review</a>
+                <a href="contact.html">contact</a>
+                <a href="#blogs">blogs</a>
+            </nav>
+        <div class="icon">
+
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+
+        </div>
+
+            <div class="search-form">
+                <input type="search" id ="search" placeholder ="Search here.....">
+                <label for="search" class="fas fa-search"></label>
+
+            </div>
+
+
+ 
+    </header>
+
+    <!--about-->
+    <div class="content">
+    
+    
+        <h3>Makes your bestfriend happy!</h3>
+        <p>I will always woof you.<br>
+            My best friend has a fur and a tail.<br>
+            but they make our lives whole.</p>
+            <br>
+            <p>I will always woof you.<br>
+                My best friend has a fur and a tail.<br>
+                
+                <br>
+
+
+</div>
+           <section class="about" id="about">
+            <h2 class="heading">Top3 best food <br>
+                for your<span> Husky </span></h2>
+        
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="husky1.jpg" alt="about">
+                </div>
+                <div class="content">
+                    
+                    <h3>Taste of the Wild  <br>
+                        Dry Dog Food</h3>
+                        <br>
+                    <p>➤First 5 ingredients: Buffalo, lamb meal, chicken meal, sweet potatoes, peas<br>
+                       <br>➤ Type: Grain-free<br>
+                        <br>➤ Best for: Adult huskies</p>
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.chewy.com/s?query=taste%20of%20the%20wild%20dry%20dog%20food&nav-submit-button=&utm_source=partnerize&utm_medium=affiliates&utm_campaign=1100l35838&utm_content=0&clickref=1101lwoC4oT8&utm_term=1101lwoC4oT8" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <hr></hr>
+            <!--dog food 2-->
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="husky3.jpg" alt="about">
+                </div>
+                <div class="content">
+                  
+                    <h3>Ollie Fresh Dog Food</h3>
+                        <br>
+                    <p>➤ First 5 ingredients: Beef, peas, sweet potato, potato, carrot<br>
+                       <br>➤ Type: Grain-free<br>
+                        <br>➤ Best for: Husky puppies and adults</p>
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.myollie.com/?irclickid=12p3GTz3QxyIW25wXf21jTmyUkAx87V3UR50zU0&irgwc=1&ir_campaignid=12309&ir_adid=900881&ir_partnerid=2442109&partner=Dog%20Food%20Advisor&utm_source=impact&utm_medium=affiliate&offer_code=OLLIE50S" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <!--dog food3 -->
+
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="husky2.jpg" alt="about">
+                </div>
+                <div class="content">
+                  
+                    <h3>Wellness Complete Health Dog Food</h3>
+                        <br>
+                    <p>➤ First 5 ingredients: Deboned chicken, chicken meal, oatmeal, ground barley, peas<br>
+                       <br>➤ Type: With grain (oatmeal, barley, rice)<br>
+                        <br>➤ Best for: Adult huskies</p>
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.chewy.com/s?query=wellness%20complete%20health%20dry%20dog%20food&nav-submit-button=&utm_source=partnerize&utm_medium=affiliates&utm_campaign=1100l35838&utm_content=0&clickref=1011lwpePw2Z&utm_term=1011lwpePw2Z" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <a href="menu.html"  class="btn">back to menu</a>
+           </section>
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- custom js file link  -->
+<script src="script.js">
+        let navigator = document.querySelector('.navigator');
+
+        document.querySelector('#menu-btn').onclick = () =>{
+            navigator.classList.toggle('active');
+        }
+        let searchform = document.querySelector('.search-form');
+
+        document.querySelector('#search-btn').onclick = () =>{
+            navigator.classList.toggle('active');
+        }
+</script>
+    
+</body>
+</html>

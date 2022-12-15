@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog food for Chow chow</title>
+    <link rel="stylesheet" href ="index.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+</head>
+<body>
+   
+    <!--header-->
+    <header class="header">
+             <a href="index.html" class ="logo">
+                <img src ="logoo.png" alt="logo">
+            </a>
+    <!--NAVIGATOR-->
+   
+            <nav class="navigator">
+                <a href="index.html" >home</a>
+                <a href="menu.html"class = "active1">menu</a>          
+                <a href="about.html">about</a>
+                <a href="review.html">review</a>
+                <a href="contact.html">contact</a>
+                <a href="#blogs">blogs</a>
+            </nav>
+        <div class="icon">
+
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+
+        </div>
+
+            <div class="search-form">
+                <input type="search" id ="search" placeholder ="Search here.....">
+                <label for="search" class="fas fa-search"></label>
+
+            </div>
+
+
+ 
+    </header>
+
+    <!--about-->
+    <div class="content">
+    
+    
+        <h3>Makes your bestfriend happy!</h3>
+        <p>I will always woof you.<br>
+            My best friend has a fur and a tail.<br>
+            but they make our lives whole.</p>
+            <br>
+            <p>I will always woof you.<br>
+                My best friend has a fur and a tail.<br>
+                
+                <br>
+
+
+</div>
+           <section class="about" id="about">
+            <h2 class="heading">Top3 best food <br>
+                for your<span> Chow chow </span></h2>
+        
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="chow1.jpg" alt="about">
+                </div>
+                <div class="content">
+                    
+                    <h3>Royal Canin Giant Adult <br>
+                        Dry Dog Food</h3>
+                        <br>
+                    <p>➤ Full nutrient profile.<br>
+                       <br>➤ Great for larger breeds<br>
+                        <br>➤ Has omega fatty acids and glucosamine</p>
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.amazon.com/dp/B0032BOIH0?tag=petkeen-20&linkCode=osi&th=1&psc=1" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <hr></hr>
+            <!--dog food 2-->
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="chow2.jpg" alt="about">
+                </div>
+                <div class="content">
+                  
+                    <h3>Merrick Healthy Grains<br>
+                        Dry Dog Food</h3>
+                        <br>
+                    <p>➤ Made with deboned salmon<br>
+                       <br>➤ Healthy whole grains<br>
+                        <br>➤ Omega fatty acids</p>
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.amazon.com/dp/B07YH1RRM6?tag=petkeen-20&linkCode=osi&th=1&psc=1" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <!--dog food3 -->
+
+            <div class="row">
+                <br>
+                <div class="image">
+                    
+                     <img src="chow3.jpg" alt="about">
+                </div>
+                <div class="content">
+                  
+                    <h3>Annamaet Medium & <br>
+                        Large Breed Dry Dog Food</h3>
+                        <br>
+                    <p>➤ Supports cognitive function<br>
+                       <br>➤ Great for a shiny coat<br>
+                        <br>➤ Has essential nutrients and antioxidants</p>
+                        <br>
+                        <br>
+                        <br>
+                    <a href="https://www.amazon.com/dp/B07GXXBV4J?tag=petkeen-20&linkCode=osi&th=1" target="_blank" class="btn">check price </a>
+                </div>
+                
+            </div>
+            <a href="menu.html"  class="btn">back to menu</a>
+           </section>
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- custom js file link  -->
+<script src="script.js">
+        let navigator = document.querySelector('.navigator');
+
+        document.querySelector('#menu-btn').onclick = () =>{
+            navigator.classList.toggle('active');
+        }
+        let searchform = document.querySelector('.search-form');
+
+        document.querySelector('#search-btn').onclick = () =>{
+            navigator.classList.toggle('active');
+        }
+</script>
+    
+</body>
+</html>
